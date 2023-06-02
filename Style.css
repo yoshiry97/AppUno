@@ -26,7 +26,7 @@ hgroup {
     width: 720px;
     margin: 20px auto;
     padding: 5px;
-    background: #999999;
+    background: #8c91d2;
     border: 1px solid #666666;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -34,18 +34,22 @@ hgroup {
 }
 
 nav {
-    margin: 5px 0px;
+    margin: 20px;
+    padding: 10px;
+    background:  #8c91d2;
+    border: 1px solid #666666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
 }
 
 #botones {
     width: 230px;
     float: left;
     height: 20px;
-    
-    
+    align-items: center;
+    border-radius: 10px; 
 }
-
-
 
 #barra{
 position: relative;
@@ -55,8 +59,9 @@ height: 20px;
 padding: 2px;
 border: 1px solid #CCCCCC;
 background: #EEEEEE;
-
+border-radius: 5px; 
 }
+
 #progreso{
 position: absolute;
 width: 0px;
@@ -64,19 +69,19 @@ height: 16px;
 background: rgba(0,0,150,.2);
 }
     
-/* Slideshow container */
+/* Contenedor del carrusel de imágenes */
 .slideshow-container {
     max-width: 600px;
     position: relative;
     margin: auto;
 }
 
-/* Hide the images by default */
+/* Esconde las imágenes por defecto */
 .mySlides {
     display: none;
 }
 
-/* Next & previous buttons */
+/* Botones de siguiente y anterior */
 .prev,
 .next {
     cursor: pointer;
@@ -93,25 +98,25 @@ background: rgba(0,0,150,.2);
     user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Posicionamiento del botón anterio hacia la izquierda */
 .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* Position the "next button" to the right */
+/* Posicionamiento del botón siguiente hacia la derecha */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* Agrega a los botones siguiente y anterior un fondo negro difuminado*/
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
+/* Texto de la imagen*/
 .text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ece7ef;
@@ -123,7 +128,7 @@ background: rgba(0,0,150,.2);
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Numero de imagen (1/3 etc) */
 .numbertext {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #45287d;
@@ -133,7 +138,7 @@ background: rgba(0,0,150,.2);
     top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* Círculos debajo del carrusel */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -150,7 +155,7 @@ background: rgba(0,0,150,.2);
     background-color: #8c25db;
 }
 
-/* Fading animation */
+/*Animación de diapositiva siguiente */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -170,3 +175,4 @@ h1 {
     color: blueviolet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+

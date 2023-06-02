@@ -67,10 +67,15 @@ function mover(e) {
   }
 }
 
-
-function makeLarge() { 
- medio.width = 1000; 
+function makeLarge() {
+  medio.width = 1000;
 }
-function makeSmall() { 
-  medio.width = 250; 
-} 
+function makeSmall() {
+  medio.width = 250;
+}
+
+function mute() {
+  var aud = document.getElementById("medio");
+  if (aud.muted == false) { aud.muted = true }
+  else { aud.muted = false }
+}

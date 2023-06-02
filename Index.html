@@ -8,12 +8,10 @@
     <title>Ejemplo de uso de controles HTML5 con JavaScript</title>
     <link rel="stylesheet" href="Style.css" type="text/css">
 </head>
-<h1>Controles HTML5 con JavaScript</h1>
 
 <body>
-
+    <h1>Controles HTML5 con JavaScript</h1>
     <div>
-
         <section id="reproductor"></section>
         <video id="medio" width="720" height="400" preload loop>
             <source src="/Multimedia/Video.mp4" type="video/mp4">
@@ -23,14 +21,12 @@
     </div>
     <nav>
         <div id="botones">
-            <button onclick="iniciar()" type="button" id="reproducir"><img src="/Icons/play.png" height="15"
-                    width="15" /></button>
-            <button onclick="presionar()" type="button" id="pausa"><img src="/Icons/pausa.png" height="15"
-                    width="15" /></button>
-            <button onclick="makeLarge()" type="button" id="large"><img src="/Icons/screen.png" height="15"
-                    width="15" /></button>
-            <button onclick="makeSmall()" type="button" id="small"><img src="/Icons/exitscreen.png" height="15"
-                    width="15" /></button>
+            <button onclick="iniciar()" type="button" id="reproducir"><img src="/Icons/play.png" height="15" width="15" /></button>
+            <button onclick="presionar()" type="button" id="pausa"><img src="/Icons/pausa.png" height="15" width="15" /></button>
+            <button onclick="makeLarge()" type="button" id="large"><img src="/Icons/screen.png" height="15" width="15" /></button>
+            <button onclick="makeSmall()" type="button" id="small"><img src="/Icons/exitscreen.png" height="15" width="15" /></button>
+            <button onclick="mute()" type="button" id="mute"><img src="/Icons/silencio.png" height="15" width="15" /></button>
+
         </div>
         <div id="barra">
             <div id="progreso"></div>
@@ -83,7 +79,6 @@
     <div>
         <audio id="audio" preload controls loop>
             <source src="/Multimedia/mp3.mp3" type="audio/mp3">
-
         </audio>
     </div>
 
